@@ -1,4 +1,4 @@
-function tweet (){
-    return "Tweet, tweet"
+function tweet (atWhom){
+    return `Tweet, tweet ${atWhom}`
 }
 module.exports = tweet

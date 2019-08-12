@@ -2,8 +2,8 @@ const animalSounds = {
     domesticated:{
         dog: require('./dog'),
         bird: require('./bird'), 
-        cat: function meow(){
-        return 'meow!'
+        cat: function meow(atWhom){
+        return `meow, ${atWhom}`
         },
     },    
     farm:{

@@ -13,14 +13,23 @@
 // greet(tweet);
 
 //library of sounds 
-const {domesticated,farm} = require('./AnimalSounds');
-const greet = require('./greet')
-greet(domesticated.dog);
-greet(domesticated.cat);
-greet(farm.cow);
+// const {domesticated,farm} = require('./AnimalSounds');
+// const greet = require('./greet')
+// greet(domesticated.dog,'Tony');
+// greet(domesticated.bird,"Dalinda");
+// greet(domesticated.cat,"Jackie")
+// greet(farm.pig, 'Louise')
 // greet(farm.cow);
-// greet(bird);
-// greet(cat);
+
+//setTimeout == you pass it a functoin, it waits, then calls it
+//setInterval == you pass it ia function, it waits, calls it, waits, calls it 
+function helloWorld(){
+    console.log('Hello World')
+};
+console.log('about to call setTimeout')
+setTimeout(helloWorld, 1000); //second parameter is an argument that in miliseconds 
+
+// helloWorld();
 
 
 
